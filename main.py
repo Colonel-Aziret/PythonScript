@@ -36,5 +36,5 @@ def extract_letters_from_image(image_path):
         cv2.imwrite(f'letters/letter_{i}.png', letter_image)
 
 if __name__ == '__main__':
-    image_path = 'test.jpeg'
+    image_path = 'test.jpeg' # Сюда загружаем свое изображение
     extract_letters_from_image(image_path)
